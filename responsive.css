@@ -1,0 +1,233 @@
+/* MOBILE */
+
+@media screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+    nav {
+        display: flex;
+        width: 100%;
+    }
+    .headerimg {
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+    .navlink {
+        border-bottom: solid 4px #f2f2f2;
+        padding: 0 0 15px 0;
+        display: inline-block;
+        flex-wrap: nowrap;
+        width: 50%!important;
+        text-align: center;
+    }
+    .navlink.active {
+        color: #0065FC;
+        border-top: none;
+        border-bottom: solid 4px #0065FC;
+    }
+    .navlink:hover {
+        color: #0065FC;
+        border-top: none;
+        border-bottom: solid 4px #0065FC;
+    }
+    main{
+        margin: 0;
+    }
+    #host {
+        flex-direction: column-reverse;
+    }
+    #search {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #filters {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+    #infos {
+        margin: 0;
+    }
+    .filters_list {
+        margin: 0;
+        padding: 0;
+    }
+    .filters_list li {
+        margin: 0 15px 10px 0;
+    }
+    aside {
+        border-radius: unset;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    article {
+        background-color: unset;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    article h2, aside h2 {
+        font-size: 18px;
+    }
+    article h2, .view_more {
+        margin-left: 0;
+    }
+    .cards {
+        width: 100%;
+    }
+    .popular_cards {
+        align-items: center;
+    }
+    .second_cards {
+        width: 100%;
+    }
+    .form-control {
+        width: 75%;
+        height: auto;
+    }
+    #inputgroup {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .search_button {
+        display: none;
+    }
+    .fa_search_button {
+        margin-left: -15px;
+        display: flex;
+        background-color: #0065FC;
+        color: white;
+        border: none;
+        border-radius: 15px 15px 15px 15px;
+        padding: 20px 20px 20px 20px;
+    }
+    #activity h1 {
+        margin-left: 7%;
+    }
+    .activity_cards {
+        flex-direction: column;
+        width: 100%;
+        padding: 11px 27px 0 27px;
+        margin-bottom: 30px;
+    }
+    .third_cards, .verticards {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .vertical_cards {
+        width: 100%;
+    }
+    .third_cards_img img { 
+        height: 139px;
+    }
+    .verticards_img img, .vertical_cards .pomegues, .vertical_cards .frioul  {
+        height: 139px;
+    }
+    footer {
+        height: auto;
+    }
+    .footer_links {
+        flex-direction: column;
+        margin: 0;
+    }
+    .about, .hebergements {
+        margin-bottom: 0;
+    }
+}
+
+/* TABLETTE */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        margin: 0 5% 3% 5%;
+    }
+    nav {
+        display: flex;
+    }
+    .navlink:hover {
+        border-bottom: none;
+    }
+    main {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .filters_list li {
+        margin-bottom: 2%;
+    }
+    #host {
+        flex-direction: column-reverse;
+    }
+    aside {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    article {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .cards {
+        width: 45%;
+    }
+    .activity_cards {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .verticards_img img, .vertical_cards .pomegues, .vertical_cards .frioul  {
+        height: 139px;
+    }
+    .third_cards, .verticards {
+        margin-bottom: 30px;
+    }
+    .vertical_cards {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1800px) {
+    header {
+        margin: 0 5% 3% 5%;
+    }
+    nav {
+        display: flex;
+    }
+    .navlink:hover {
+        border-bottom: none;
+    }
+    main {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    #host {
+        flex-direction: column-reverse;
+    }
+    aside {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    article {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .cards {
+        width: 45%;
+    }
+    .activity_cards {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .verticards_img img, .vertical_cards .pomegues, .vertical_cards .frioul  {
+        height: 139px;
+    }
+    .third_cards {
+        width: 45%;
+    }
+    .third_cards, .verticards {
+        margin-bottom: 30px;
+    }
+    .vertical_cards {
+        width: 50%;
+    }
+}
